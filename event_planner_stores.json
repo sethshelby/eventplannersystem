@@ -1,0 +1,289 @@
+{
+  "event_planner_stores": {
+    "store_a": {
+      "id": "0001",
+      "name": "Apsara Phnom Penh Wedding Planner",
+      "category": "Wedding Cosmetics",
+      "contact": {
+        "phone": "+855-555-0101",
+        "telegram": "@ny_Apsara_PhnomPenh",
+        "address": "107 St 63 Sangkat Beoung Raing Phnom Penh"
+      },
+      "services": [
+        {
+          "id": "A001",
+          "name": "None",
+          "price": 299.99,
+          "duration": "Full Day",
+          "includes": ["Wedding Outfit", "Hair Dresser", "Timeline planning", "Day-of coordination"]
+        },
+        {
+          "id": "CS002",
+          "name": "None",
+          "description": "Professional wedding planning and coordination services",
+          "price": 1299.99,
+          "duration": "Full Event",
+          "includes": ["Vendor coordination", "Timeline management", "Guest services", "Emergency support"]
+        },
+        {
+          "id": "CS003",
+          "name": "None",
+          "description": "Business event planning and professional coordination",
+          "price": 899.99,
+          "duration": "Half Day",
+          "includes": ["Meeting coordination", "Tech support", "Catering liaison", "Guest registration"]
+        },
+        {
+          "id": "CS004",
+          "name": "None",
+          "description": "Romantic anniversary celebration planning and coordination",
+          "price": 449.99,
+          "duration": "Evening",
+          "includes": ["Venue setup", "Music coordination", "Photography liaison", "Special requests"]
+        },
+        {
+          "id": "CS005",
+          "name": "None",
+          "description": "Memorable graduation celebration planning service",
+          "price": 349.99,
+          "duration": "Half Day",
+          "includes": ["Venue setup", "Graduate recognition", "Family coordination", "Photo opportunities"]
+        },
+        {
+          "id": "CS006",
+          "name": "None",
+          "description": "Delightful baby shower coordination and planning service",
+          "price": 249.99,
+          "duration": "Half Day",
+          "includes": ["Theme coordination", "Game planning", "Gift coordination", "Guest services"]
+        }
+      ]
+    },
+    "store_b": {
+      "id": "0002",
+      "name": "Em Rith Heng Cooking",
+      "category": "food_service",
+      "contact": {
+        "phone": "+1-555-0202",
+        "telegram": "@GlobalGourmetCatering",
+        "email": "orders@globalgourmet.com",
+        "address": "456 Culinary Avenue, Food District"
+      },
+      "services": [
+        {
+          "id": "FS001",
+          "name": "Asian Fusion Package",
+          "description": "Traditional Asian cuisine with modern fusion elements",
+          "price": 25.99,
+          "duration": "Per Person",
+          "cuisine_type": "Asian",
+          "includes": ["Sushi rolls", "Dim sum", "Pad Thai", "Fried rice", "Green tea"]
+        },
+        {
+          "id": "FS002",
+          "name": "Asian + European Deluxe",
+          "description": "Combination of Asian and European culinary traditions",
+          "price": 35.99,
+          "duration": "Per Person", 
+          "cuisine_type": "Asian + European",
+          "includes": ["Sushi", "Pasta", "Stir-fry", "Risotto", "Wine selection"]
+        },
+        {
+          "id": "FS003",
+          "name": "Mediterranean Feast",
+          "description": "Fresh Mediterranean cuisine with healthy options",
+          "price": 29.99,
+          "duration": "Per Person",
+          "cuisine_type": "Mediterranean",
+          "includes": ["Grilled seafood", "Greek salad", "Hummus", "Pita bread", "Olive oil tastings"]
+        },
+        {
+          "id": "FS004",
+          "name": "American BBQ Classic",
+          "description": "Traditional American BBQ with all the fixings",
+          "price": 22.99,
+          "duration": "Per Person",
+          "cuisine_type": "American",
+          "includes": ["BBQ ribs", "Pulled pork", "Coleslaw", "Cornbread", "Mac and cheese"]
+        },
+        {
+          "id": "FS005",
+          "name": "International Buffet Supreme",
+          "description": "World cuisine buffet with dishes from 5 continents",
+          "price": 45.99,
+          "duration": "Per Person",
+          "cuisine_type": "International",
+          "includes": ["Asian stir-fry", "Italian pasta", "Mexican tacos", "Indian curry", "American grill"]
+        },
+        {
+          "id": "FS006",
+          "name": "Vegetarian Paradise",
+          "description": "Gourmet vegetarian and vegan options from around the world",
+          "price": 27.99,
+          "duration": "Per Person",
+          "cuisine_type": "Vegetarian/Vegan",
+          "includes": ["Veggie burgers", "Quinoa salad", "Vegan pasta", "Fruit platters", "Herbal teas"]
+        }
+      ]
+    },
+    "store_c": {
+      "id": "0003",
+      "name": "Angkor Film and Shooting",
+      "category": "decoration_service",
+      "description": "Creative decoration and ambiance design for all events",
+      "contact": {
+        "phone": "+1-555-0303",
+        "telegram": "@ArtisticDecoStudio",
+        "email": "design@artisticdeco.com",
+        "address": "789 Creative Lane, Arts District"
+      },
+      "services": [
+        {
+          "id": "DS001",
+          "name": "Elegant Birthday Theme",
+          "description": "Sophisticated birthday party decorations with custom themes",
+          "price": 199.99,
+          "duration": "Setup + Cleanup",
+          "theme_type": "Birthday",
+          "includes": ["Custom banners", "Balloon arrangements", "Table centerpieces", "Lighting setup"]
+        },
+        {
+          "id": "DS002",
+          "name": "Wedding Wonderland Package",
+          "description": "Romantic wedding decoration with premium floral arrangements",
+          "price": 899.99,
+          "duration": "Full Day Setup",
+          "theme_type": "Wedding",
+          "includes": ["Bridal arch", "Ceremony decorations", "Reception setup", "Floral arrangements"]
+        },
+        {
+          "id": "DS003",
+          "name": "Corporate Professional Setup",
+          "description": "Clean and professional decorations for business events",
+          "price": 399.99,
+          "duration": "Setup + Cleanup",
+          "theme_type": "Corporate",
+          "includes": ["Company branding", "Professional signage", "Stage setup", "Networking areas"]
+        },
+        {
+          "id": "DS004",
+          "name": "Vintage Rustic Theme",
+          "description": "Charming vintage and rustic decoration elements",
+          "price": 349.99,
+          "duration": "Setup + Cleanup",
+          "theme_type": "Vintage/Rustic",
+          "includes": ["Mason jar centerpieces", "Burlap accents", "Vintage lighting", "Wooden signage"]
+        },
+        {
+          "id": "DS005",
+          "name": "Modern Minimalist Design",
+          "description": "Clean, contemporary decoration with minimalist aesthetics",
+          "price": 279.99,
+          "duration": "Setup + Cleanup",
+          "theme_type": "Modern/Minimalist",
+          "includes": ["Geometric decorations", "LED lighting", "Clean lines setup", "Contemporary centerpieces"]
+        },
+        {
+          "id": "DS006",
+          "name": "Garden Party Paradise",
+          "description": "Natural outdoor decoration with botanical elements",
+          "price": 429.99,
+          "duration": "Setup + Cleanup",
+          "theme_type": "Garden/Outdoor",
+          "includes": ["Floral installations", "Garden lighting", "Natural materials", "Outdoor furniture styling"]
+        }
+      ]
+    },
+    "store_d": {
+      "id": "store_d",
+      "name": "Sound & Vision Entertainment",
+      "category": "entertainment_service",
+      "description": "Professional audio-visual and entertainment services",
+      "contact": {
+        "phone": "+1-555-0404",
+        "telegram": "@SoundVisionEnt",
+        "email": "bookings@soundvision.com",
+        "address": "101 Entertainment Blvd, Media District"
+      },
+      "services": [
+        {
+          "id": "ES001",
+          "name": "DJ Premium Package",
+          "description": "Professional DJ service with premium sound system",
+          "price": 499.99,
+          "duration": "4 Hours",
+          "equipment": "Premium",
+          "includes": ["Professional DJ", "Premium sound system", "Lighting effects", "Music requests"]
+        },
+        {
+          "id": "ES002",
+          "name": "Live Band Performance",
+          "description": "Live musical entertainment with professional band",
+          "price": 1199.99,
+          "duration": "3 Hours",
+          "equipment": "Full Band",
+          "includes": ["4-piece band", "Full sound setup", "Stage lighting", "Song requests"]
+        },
+        {
+          "id": "ES003",
+          "name": "Karaoke Party Setup",
+          "description": "Interactive karaoke system for guest entertainment",
+          "price": 299.99,
+          "duration": "4 Hours",
+          "equipment": "Karaoke System",
+          "includes": ["Karaoke machine", "Microphones", "Song library", "Screen display"]
+        },
+        {
+          "id": "ES004",
+          "name": "Photo Booth Deluxe",
+          "description": "Interactive photo booth with props and instant prints",
+          "price": 399.99,
+          "duration": "4 Hours",
+          "equipment": "Photo Booth",
+          "includes": ["Photo booth setup", "Props collection", "Instant printing", "Digital copies"]
+        }
+      ]
+    },
+    "store_e": {
+      "id": "store_e",
+      "name": "Perfect Logistics Solutions",
+      "category": "logistics_service",
+      "description": "Event logistics and coordination services",
+      "contact": {
+        "phone": "+1-555-0505",
+        "telegram": "@PerfectLogistics",
+        "email": "logistics@perfectsolutions.com",
+        "address": "555 Logistics Way, Industrial District"
+      },
+      "services": [
+        {
+          "id": "LS001",
+          "name": "Venue Selection Service",
+          "description": "Professional venue scouting and booking assistance",
+          "price": 199.99,
+          "duration": "Consultation",
+          "service_type": "Venue",
+          "includes": ["Venue research", "Site visits", "Booking assistance", "Contract review"]
+        },
+        {
+          "id": "LS002",
+          "name": "Guest Transportation",
+          "description": "Coordinated transportation services for event guests",
+          "price": 349.99,
+          "duration": "Per Event",
+          "service_type": "Transportation",
+          "includes": ["Transport coordination", "Pickup scheduling", "Driver coordination", "Route planning"]
+        },
+        {
+          "id": "LS003",
+          "name": "Equipment Rental Management",
+          "description": "Comprehensive equipment rental coordination service",
+          "price": 249.99,
+          "duration": "Per Event",
+          "service_type": "Equipment",
+          "includes": ["Equipment sourcing", "Delivery coordination", "Setup assistance", "Return management"]
+        }
+      ]
+    }
+  }
+}
