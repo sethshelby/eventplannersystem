@@ -1,4 +1,3 @@
-
 import json
 import os
 from datetime import datetime
@@ -77,11 +76,6 @@ def show_tasks():
         print(f"   📅 Start Date: {details['date_start']}")
         print(f"   📅 End Date: {details['date_end']}")
         print("-" * 50)
-    
-    print("\n Available Tasks:")
-    for i, task_name in enumerate(tasks.keys(), 1):
-        print(f"{i}. {task_name} (Status: {tasks[task_name]})")
-
 
 def delete_task():
     """Delete a task"""
@@ -117,7 +111,7 @@ def smart_schedule_main():
         print("="*50)
         print("1. Add Task")
         print("2. Show All Tasks")
-        print("4. Delete Task")
+        print("3. Delete Task")
         print("0. Back to Main Menu")
         
         choice = input("\n Enter your choice: ").strip()
