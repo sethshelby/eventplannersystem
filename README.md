@@ -11,6 +11,21 @@ A Python-based event planning application with user authentication, store manage
 - **👤 Profile Management**: User profile management (coming soon)
 - **👥 Customer Management**: Customer relationship management (coming soon)
 
+## 🤝 Real-Time Collaboration
+
+This project supports real-time collaboration with your friends! 
+
+### Quick Setup (2 minutes):
+1. **Add collaborators**: Go to [GitHub Settings](https://github.com/sethshelby/eventplannersystem/settings/access) → Add people
+2. **Use sync tool**: Run `./sync.sh` to pull/push changes easily
+3. **See [QUICKSTART.md](QUICKSTART.md)** for step-by-step instructions
+
+### Basic Workflow:
+**Before working:** `git pull origin main`  
+**After changes:** `./sync.sh` or `git add . && git commit -m "message" && git push origin main`
+
+📖 **Full guide:** [COLLABORATION.md](COLLABORATION.md)
+
 ## 🚀 Prerequisites
 
 - Python 3.x (no external dependencies required)
@@ -103,4 +118,3 @@ This project is open source and available for personal and educational use.
 ---
 
 **Made by Keo Ravit, Lonn Thou Piseth, San Risemoon**
-
