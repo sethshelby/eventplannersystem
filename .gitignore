@@ -21,11 +21,5 @@ ENV/
 .DS_Store
 Thumbs.db
 
-# User data files (you may want to keep these private)
-users.json
-tasks.json
-event_planner_stores.json
-
 # Logs
 *.log
-

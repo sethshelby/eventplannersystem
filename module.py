@@ -24,14 +24,6 @@ def getOption(opt):
         print("Budget management features coming soon!")
         input("Press Enter to continue...")
     elif opt == '4':
-        print("\n👤 --- Profile ---")
-        print("Profile management features coming soon!")
-        input("Press Enter to continue...")
-    elif opt == '5':
-        print("\n👥 --- Customer ---")
-        print("Customer management features coming soon!")
-        input("Press Enter to continue...")
-    elif opt == '6':
         print("👋 Thank you for using our Event Planner System!")
         return False  
     else:

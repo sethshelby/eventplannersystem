@@ -80,13 +80,7 @@ def show_tasks():
     
     print("\n Available Tasks:")
     for i, task_name in enumerate(tasks.keys(), 1):
-        print(f"{i}. {task_name} (Status: {tasks[task_name]['status']})")
-    
-    task_name = input("\nEnter task name to update: ").strip()
-    
-    if task_name not in tasks:
-        print(" Task not found!")
-        return
+        print(f"{i}. {task_name} (Status: {tasks[task_name]})")
 
 
 def delete_task():
