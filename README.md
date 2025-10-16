@@ -102,5 +102,5 @@ This project is open source and available for personal and educational use.
 
 ---
 
-**Made with ❤️ for Event Planners**
+**Made by Keo Ravit, Lonn Thou Piseth, San Risemoon**
 
