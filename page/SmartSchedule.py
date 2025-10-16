@@ -80,7 +80,7 @@ def show_tasks():
     
     print("\n Available Tasks:")
     for i, task_name in enumerate(tasks.keys(), 1):
-        print(f"{i}. {task_name} (Status: {tasks[task_name]['status']})")
+        print(f"{i}. {task_name} (Status: {tasks[task_name]})")
     
     task_name = input("\nEnter task name to update: ").strip()
     
@@ -144,4 +144,5 @@ def smart_schedule_main():
 
 
 if __name__ == "__main__":
+
     smart_schedule_main()
